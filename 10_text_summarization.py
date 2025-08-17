@@ -13,9 +13,13 @@ docs = loader.load()
 
 # %% Data Preparation
 article_text = docs[0].page_content
+print (article_text)
+print ("-------------")
 # %%
 result = summarizer(article_text[:2000], min_length=20, max_length=80, do_sample=False)
 result[0]['summary_text']
+print(result)
+
 # %% number of characters
 len(result[0]['summary_text'].split(' '))
 
