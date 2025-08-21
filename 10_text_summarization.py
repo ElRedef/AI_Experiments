@@ -21,7 +21,9 @@ result[0]['summary_text']
 print(result)
 
 # %% number of characters
-len(result[0]['summary_text'].split(' '))
+a=len(result[0]['summary_text'].split(' '))
+print("Länge: "+str(a))
+
 
 
 # %%
