@@ -33,6 +33,7 @@ dependencies = [
     "transformers>=4.46.3",
     "sentencepiece>=0.2.1",
     "sacremoses>=0.1.1",
+    "diffusers>=0.35.1",
 ]
 
 [tool.uv.sources]
