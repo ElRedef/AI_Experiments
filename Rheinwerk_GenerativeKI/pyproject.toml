@@ -13,6 +13,7 @@ dependencies = [
     "jupyter>=1.1.1",
     "langchain-community>=0.3.29",
     "langchain-groq>=0.3.8",
+    "langchain-openai>=0.3.34",
     "pandas>=2.3.2",
     "pymupdf>=1.26.4",
     "sentencepiece>=0.2.1",
